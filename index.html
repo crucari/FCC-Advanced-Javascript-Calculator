@@ -32,8 +32,13 @@
                <td><input type="button" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
                <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
             </tr>
+            
+            <tr>
+                <td><input type="button" id="clearEquation" name="clearEquation" value="CE" onclick="calculator.display.value = ''"></td>
+            </tr>
          </table>
       </form>
+      <script src="objects.js"></script>
    </body>
    </head>
 </html>
